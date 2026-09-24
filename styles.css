@@ -161,7 +161,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 2em;
+  padding: 2em;
 }
 
 .boton-formulario-contenedor {
@@ -182,31 +182,57 @@ button {
   padding: 10px 20px;
 }
 
-label {
+.etiqueta-contacto {
   font-size: 2em;
+  padding: 0.5em;
+  display: block;
+  width: 30em;
+} 
+
+.input-contacto {
+  padding: 0.5em;
+  width: 50em;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-  min-width: 50vw;
+textarea {
+  width: 50em; 
+  height: 10em; 
+  resize: vertical;
+  padding: 12px;
+  line-height: 1.5;
+  border: 1px solid #ccc; 
+  border-radius: 6px; 
+  background-color: #fff;
+  box-sizing: border-box;
 }
 
 .main-contacto {
   display: flex;
   flex-direction: row;
+  border: solid black 1px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  min-width: 60vw;
+  border: solid black 1px;
 }
 
 aside {
   display: flex;
   flex-direction: column;
-  min-width: 50vw;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 40vw;  
+  border: solid black 1px;
 }
 
 .nav-contacto {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  padding: 2em;
 }
 
 .icono {
