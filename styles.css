@@ -58,7 +58,7 @@ nav a:hover {
   font-weight: bold;
 }
 
-ul {
+.nav-header {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -123,27 +123,12 @@ footer {
   width: 100px;
 }
 
-/*.main-index {
-  background-image: url("imagenes/logo.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 60vh;
-  opacity: 0.6;
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}*/
-
 .main-index {
   position: relative;
-  height: 60vh;
+  min-height: 60vh;
   margin: 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #000000;
@@ -167,7 +152,11 @@ footer {
 .parrafo-index {
   font-size: 4em;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
+
 .datos-formulario-contenedor {
   display: flex;
   flex-direction: column;
@@ -197,8 +186,29 @@ label {
   font-size: 2em;
 }
 
-table,
-th,
-td {
-  border: solid 0.5px black;
+section {
+  display: flex;
+  flex-direction: column;
+  min-width: 50vw;
+}
+
+.main-contacto {
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  min-width: 50vw;
+}
+
+.nav-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.icono {
+  width: 1em;
 }
