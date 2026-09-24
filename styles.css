@@ -157,6 +157,11 @@ footer {
   margin: 0;
 }
 
+h2 {
+  padding: 1em;
+  font-size: 1.5em;
+}
+
 .datos-formulario-contenedor {
   display: flex;
   flex-direction: column;
@@ -187,7 +192,7 @@ button {
   padding: 0.5em;
   display: block;
   width: 30em;
-} 
+}
 
 .input-contacto {
   padding: 0.5em;
@@ -195,13 +200,13 @@ button {
 }
 
 textarea {
-  width: 50em; 
-  height: 10em; 
+  width: 50em;
+  height: 10em;
   resize: vertical;
   padding: 12px;
   line-height: 1.5;
-  border: 1px solid #ccc; 
-  border-radius: 6px; 
+  border: 1px solid #ccc;
+  border-radius: 6px;
   background-color: #fff;
   box-sizing: border-box;
 }
@@ -217,15 +222,16 @@ section {
   flex-direction: column;
   min-width: 60vw;
   border: solid black 1px;
+  padding: 1em;
 }
 
 aside {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  min-width: 40vw;  
+  min-width: 40vw;
   border: solid black 1px;
+  padding: 1em;
 }
 
 .nav-contacto {
