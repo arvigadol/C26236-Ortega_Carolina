@@ -4,7 +4,6 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-
 }
 
 html {
@@ -48,6 +47,7 @@ header {
 h1 {
   display: flex;
   justify-content: center;
+  font-size: 1.5em;
 }
 
 nav a:hover {
@@ -121,6 +121,15 @@ p {
   display: flex;
   flex-direction: column;
   margin: 0;
+}
+
+.h2-index {
+  font-size: 1.5em;
+}
+
+.h2-index:hover {
+  color: #668277;
+  font-weight: bold;
 }
 
 .articulos_carrito {
