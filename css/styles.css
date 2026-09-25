@@ -4,7 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  font-size: 62.5vp;
+
 }
 
 html {
@@ -15,7 +15,7 @@ html {
 
 body {
   font-family: "Archivo Black", sans-serif;
-  height: 60vh;
+
   background: repeating-linear-gradient(
     rgb(255, 214, 161),
     white,
@@ -30,7 +30,11 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 2em;
+  padding: 2em;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: wheat;
 }
 
 .header__titulo--fuente {
@@ -42,7 +46,6 @@ header {
 }
 
 h1 {
-  width: 100%;
   display: flex;
   justify-content: center;
 }
